@@ -1,0 +1,47 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .card-title {
+    font-weight: bold;
+  }
+  
+  #cart-items .cart-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 0;
+    border-bottom: 1px solid #eee;
+  }
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }  
+
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    font-size: 0.95rem;
+  }
+  
+  .cart-item span:first-child {
+    font-weight: 500;
+  }
+  
+  .cart-item span:last-child {
+    color: #343a40;
+  }
+  
+  .card-header.bg-dark {
+    background-color: #212529 !important;
+  }
+  
+  .card-footer {
+    background-color: #f8f9fa;
+    font-weight: 600;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
